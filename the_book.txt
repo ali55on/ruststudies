@@ -1,0 +1,24 @@
+parei:
+    en: https://doc.rust-lang.org/book/ch11-00-testing.html
+    pt: https://livro.rustbr.org/ch12-00-an-io-project.html
+
+    lib:    https://stackoverflow.com/questions/45519176/how-do-i-use-or-import-a-local-rust-file
+    livro2: https://rust-unofficial.github.io/too-many-lists/
+
+    https://play.rust-lang.org/
+
+gtk:
+    https://gtk-rs.org/gtk4-rs/
+    https://www.reddit.com/r/GTK/comments/a2n54t/how_do_i_create_a_floating_widget_in_gtk_3/
+
+druid:
+    https://linebender.org/druid/custom_widgets.html
+
+prelude:
+    https://doc.rust-lang.org/std/prelude/index.html
+
+crates:
+    https://crates.io/crates/
+
+std library:
+    https://doc.rust-lang.org/std/collections/index.html

@@ -1,0 +1,33 @@
+Rustup: o instalador e gerenciador de versões de Rust
+    Baixar e instalar rustup:  # Instruções durate instalação
+        curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+    Desinstalar rustup:
+        rustup self uninstall
+    Atualizar rustup:
+        rustup update
+
+Cargo:
+    Compilador e gerenciamento de pacotes  # Vem com Rustup
+    ver versão:
+        cargo --version
+
+Rust compiler:
+    Ver versão:
+        rustc --version
+
+Pagina de libs (crates):
+    https://crates.io/
+
+
+Web assemblr:
+    https://seed-rs.org/
+
+Rustfmt:
+    garante um estilo de codificação consistente entre os desenvolvedores.
+
+O Rust Language Server:
+    capacita o Integrated Development Environment (IDE) integração para autocompletar código e mensagens de erro em linha.
+
+Documentação:
+    para abrir a documentação local em seu navegador.
+        rustup doc

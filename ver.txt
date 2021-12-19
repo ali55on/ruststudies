@@ -1,0 +1,5 @@
+todas as conversões de dados
+
+fatias de string em c++
+
+descobrir o tipo

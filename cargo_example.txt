@@ -1,0 +1,101 @@
+Projetos:
+
+    rode:
+        $ cargo new hello_cargo
+
+    Cargo cria um diretório do projeto. a linha de comando
+    deve partir de dentro desse diretório.
+        $ cd hello_cargo
+
+    Nesse diretório de nivel superior fica toda a documentação.
+        $ ls
+        Cargo.toml  src
+
+    Há tbm o diretório 'src'. Todo o código do projeto, bem
+    como o 'main.rs', fica nesse diretório "src".
+        $ ls src
+        main.rs
+
+
+Binários:
+
+    na pasta de nivel superior, rode:
+        $ cargo build
+
+    Os binários gerados ficam em "./target/debug/", que
+    é criado automáticamente pelo compilador cargo.
+        $ ./target/debug/hello_cargo
+        Hello, world!
+
+    Para criar o binário com cargo e já executá-lo, na
+    pasta de nivel superior, rode:
+        $ cargo run
+        ...
+        Hello, world!
+
+    O comando "cargo check" verifica rapidamente seu código
+    para garantir que ele compila, mas não produz um executável.
+    Na pasta de nivel superior, rode:
+        $ cargo check
+
+    Quando o projeto estiver pronto, o binário precisa do
+    parametro "--release", que gera um binário otimizado.
+    Na pasta de nivel superior, rode:
+        $ cargo build --release
+
+
+
+Bibliotécas:
+
+    Ao adicionar bibliotecas (crates) no arquivo Toml como
+    dependencias, elas serão baixadas automáticamente
+    de "https://crates.io/" ao construir com a instrução "build"
+        $ cargo build
+            Updating crates.io index
+          Downloaded rand v0.8.3
+          Downloaded libc v0.2.86
+          Downloaded getrandom v0.2.2
+          Downloaded cfg-if v1.0.0
+          Downloaded ppv-lite86 v0.2.10
+          Downloaded rand_chacha v0.3.0
+          Downloaded rand_core v0.6.2
+           Compiling rand_core v0.6.2
+           Compiling libc v0.2.86
+           Compiling getrandom v0.2.2
+           Compiling cfg-if v1.0.0
+           Compiling ppv-lite86 v0.2.10
+           Compiling rand_chacha v0.3.0
+           Compiling rand v0.8.3
+           Compiling guessing_game v0.1.0 (file:///projects/guessing_game)
+            Finished dev [unoptimized + debuginfo] target(s) in 2.53s
+
+
+Atualizações:
+
+    A instrução "update", irá ignorar o arquivo "Cargo.lock" e descobrir todas
+    as versões mais recentes que atendem às suas especificações em Cargo.toml.
+    Se funcionar, Cargo escreverá essas versões no arquivo "Cargo.lock".
+
+    Se sua versão da crete for "0.8.3", por exemplo; por padrão, o Cargo
+    procurará apenas versões maiores que 0.8.3 e menos que 0.9.0.
+    Se lançou duas novas versões, "0.8.4" e "0.9.0", você veria o seguinte
+    se executasse "cargo update":
+        $ cargo update
+            Updating crates.io index
+            Updating rand v0.8.3 -> v0.8.4
+
+Documentação:
+        $ cargo doc --open
+
+
+Projetos externos:
+
+    Na verdade, para trabalhar em qualquer projetos existentes, você pode usar os
+    seguintes comandos para verificar o código. Baixe do Git, mude para o diretório
+    desse projeto e construa:
+        $ git clone example.org/someproject
+        $ cd someproject
+        $ cargo build
+
+
+

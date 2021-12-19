@@ -1,0 +1,30 @@
+i32:
+    Número de 32 bits
+
+u32:
+    Número de 32 bits sem sinal (sempre positivo)
+
+i64:
+    Número de 64 bits número
+
+O padrão é um i32
+Length    Signed    Unsigned
+8-bit     i8        u8
+16-bit    i16       u16
+32-bit    i32       u32
+64-bit    i64       u64
+128-bit   i128      u128
+arch      isize     usize
+
+
+
+Number literals    Example
+Decimal            98_222
+Hex                0xff
+Octal              0o77
+Binary             0b1111_0000
+Byte (u8 only)     b'A'
+
+
+todos operadores
+https://doc.rust-lang.org/book/appendix-02-operators.html

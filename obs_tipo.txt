@@ -1,0 +1,14 @@
+Constantes:
+    https://doc.rust-lang.org/reference/const_eval.html
+
+Tipagem:
+    Rust usa tipagem estática, mas pode inferir (inferida) de acordo
+    com o valor.
+    Para converter um string em inteiro com "parse()", precisa dizer q
+    a variavel será inteira:
+        let guess: u32 = "42".parse().expect("Not a number!");
+
+Tipos de dados:
+    Escalar:
+        inteiros, números de ponto flutuante, booleanos e caracteres
+    Composto:
