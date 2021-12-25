@@ -1,7 +1,7 @@
 fn main() {
-    // iter: produz um iterador sobre referências imutáveis.
-    // into_iter: iterador que leva propriedade e retorna os valores da propriedade
-    // iter_mut: iterar sobre referências mutáveis
+// iter: produz um iterador sobre referências imutáveis.
+// into_iter: iterador que leva propriedade e retorna os valores da propriedade
+// iter_mut: iterar sobre referências mutáveis
     
     
 }
