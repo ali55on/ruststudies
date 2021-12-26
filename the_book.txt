@@ -1,5 +1,5 @@
 parei:
-    en:     https://doc.rust-lang.org/book/ch13-02-iterators.html
+    en:     https://doc.rust-lang.org/book/ch17-01-what-is-oo.html
 
     lib:    https://stackoverflow.com/questions/45519176/how-do-i-use-or-import-a-local-rust-file
     livro2: https://rust-unofficial.github.io/too-many-lists/
