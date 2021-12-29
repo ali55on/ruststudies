@@ -1,0 +1,1 @@
+/home/alien/Scripts/Git/GitHub/rust_studies/oop_blog/target/debug/oop_blog: /home/alien/Scripts/Git/GitHub/rust_studies/oop_blog/src/lib.rs /home/alien/Scripts/Git/GitHub/rust_studies/oop_blog/src/main.rs
