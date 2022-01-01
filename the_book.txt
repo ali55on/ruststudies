@@ -1,5 +1,5 @@
 ->:
-    en:     https://doc.rust-lang.org/book/ch18-03-pattern-syntax.html
+    en:     https://doc.rust-lang.org/book/ch19-03-advanced-traits.html
 
     lib:    https://stackoverflow.com/questions/45519176/how-do-i-use-or-import-a-local-rust-file
     livro2: https://rust-unofficial.github.io/too-many-lists/
