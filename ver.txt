@@ -1,5 +1,9 @@
-todas as conversões de dados
+Ver:
+    todas as conversões de dados
+    fatias de string em c++
+    descobrir o tipo
 
-fatias de string em c++
-
-descobrir o tipo
+Rever:
+    ownnership
+    limites de traits
+    Traits avançado
