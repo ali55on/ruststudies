@@ -1,0 +1,48 @@
+GUI: Nativo
+    x orbtk: https://github.com/redox-os/orbtk
+        mobile em breve - ubuntu touch e android
+        Testado - muitos erros de composição
+
+    x conrod: https://github.com/PistonDevelopers/conrod
+        sudo apt-get install libxcb-render0-dev libxcb-shape0-dev libxcb-xfixes0-dev
+        documentação incompleta
+
+    x SixtyFPS: https://github.com/sixtyfpsui/sixtyfps
+        Nativo e mobile com versão GPL_v3 (sempre aberto), e proprietaria
+        muito pobre
+
+Gui: Usa Gtk Qt
+    libui: https://github.com/NoraCodes/libui-rs
+    Sauron-native: https://github.com/ivanceras/sauron-native
+    relm: https://github.com/antoyo/relm
+
+Gui: Web
+    with mobile:
+        x dioxus: https://dioxuslabs.com/blog/introducing-dioxus/
+            Desenvolvimento pequeno e erros de compilação em todos os sistemas visto nas issues
+
+        x tauri: (tem relação com dioxus - ver mais sobre) https://github.com/tauri-apps/tauri
+
+    without mobile:
+        x wgpu: https://github.com/gfx-rs/wgpu
+            render avaçado sem widgets
+
+        x Yew: https://yew.rs/
+            // wasm
+
+        x iced: https://github.com/iced-rs/iced
+            muitos erros nos exemplos
+
+"GUI" for CLI:
+    https://github.com/gyscos/cursive
+
+TTY:
+    termion: https://github.com/redox-os/termion
+
+Web e nativo:
+    egui: https://github.com/emilk/egui
+    imgui: https://github.com/imgui-rs/imgui-rs (rival egui)
+
+--------------------------
+elm: https://elm-lang.org/
+

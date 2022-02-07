@@ -14,24 +14,3 @@ crates:
 
 std library:
     https://doc.rust-lang.org/std/collections/index.html
-
-
-------------------------
-GUI:
-    
-    SixtyFPS: Nativo
-        https://github.com/sixtyfpsui/sixtyfps
-
-    Gtk: Nativo
-        https://gtk-rs.org/gtk4-rs/
-        https://www.reddit.com/r/GTK/comments/a2n54t/how_do_i_create_a_floating_widget_in_gtk_3/
-
-    Druid: Usa Gtk no Linux
-        https://linebender.org/druid/custom_widgets.html
-        https://github.com/linebender/druid#Goals
-        
-    wgpu: Web
-        https://github.com/gfx-rs/wgpu
-
-cross techs:
-    https://raphlinus.github.io/rust/graphics/2018/10/11/2d-graphics.html
