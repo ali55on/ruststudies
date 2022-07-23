@@ -1,0 +1,19 @@
+use std::process::Command;
+
+let ls_command = Command::new("ls")
+        .arg("-l")
+        .arg("-a")
+        .output()
+        .expect("ls command failed to start");
+
+
+spawn — (Só mostra e n pega nada) runs the program and returns a value with details
+output — (Pega) runs the program and returns the output
+status — (Exit code) runs the program and returns the exit code
+
+println!("status: {}", ls_command.status);
+println!("stdout: {}", String::from_utf8_lossy(&ls_command.stdout));
+println!("stderr: {}", String::from_utf8_lossy(&ls_command.stderr));
+
+
+if wmctrl_command.status.success() {

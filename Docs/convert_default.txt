@@ -1,0 +1,5 @@
+https://devkico.itexto.com.br/?p=3326
+trait Default
+
+conversão
+https://stackoverflow.com/questions/27043268/convert-a-string-to-int
